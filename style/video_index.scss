@@ -1,0 +1,83 @@
+
+.file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    color: rgba(255, 255, 255, 0.913);
+    margin-top: 100px;
+
+
+}
+
+ input {
+    font-size: 2rem;
+    color: rgba(127, 255, 212, 0.893);
+    background-color: rgba(255, 255, 255, 0.244);
+    font-style: italic;
+    font-weight: bolder;
+
+    &:hover{
+        color: rgba(255, 255, 255, 0.913);
+    }
+
+}
+
+.file-label {
+    background-color: rgba(255, 255, 255, 0.244);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.user_anmelden {
+    color: rgba(255, 255, 255, 0.913);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px rgba(255, 0, 0, 0.913);
+    font-style: italic;
+}
+
+.username {
+    font-size: 36px; 
+    text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.913);
+    color: rgba(255, 0, 0, 0.913);
+    
+}
+
+.ausloggen {
+ 
+    color: rgba(127, 255, 212, 0.893);
+    background: rgba(255, 255, 255, 0.244);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 5px;
+    font-style: italic;
+
+
+
+    &:hover {
+        color: rgba(255, 255, 255, 0.913);
+    }
+}
+
+.sehen_video{
+
+    color: rgba(127, 255, 212, 0.893);
+    background: rgba(255, 255, 255, 0.244);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-style: italic;
+    margin-bottom: 25px;
+
+
+
+    &:hover {
+        color: rgba(255, 255, 255, 0.913);
+    }
+}
+

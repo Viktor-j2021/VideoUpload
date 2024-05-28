@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+.alb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+video {
+  width: 300px;
+  height: 450px;
+  margin-bottom: 10px;
+}
+
+.upload_zeit {
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.913);
+  font-style: italic;
+}
+
+.herunterladen_Btn {
+  color: rgba(127, 255, 212, 0.893);
+  background: rgba(255, 255, 255, 0.244);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-style: italic;
+}
+.herunterladen_Btn:hover {
+  color: rgba(255, 255, 255, 0.913);
+}/*# sourceMappingURL=video_sehen.css.map */

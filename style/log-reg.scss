@@ -1,0 +1,156 @@
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 30%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.container h1 {
+    margin: 0 0 30px;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.container .input-style {
+    position: relative;
+}
+
+.container .input-style input {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+}
+
+.container .input-style label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.664);
+    transition: .5s;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container .input-style input:focus~label,
+.container .input-style input:valid~label {
+
+    top: -18px;
+    left: 0;
+    color: aqua;
+    font-size: 8px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button {
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.664);
+    background: rgba(0, 255, 255, 0.537);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.button:hover {
+    animation: button 0.3s;
+    animation-iteration-count: infinite;
+    background-color: rgba(255, 255, 255, 0.664);
+    transition: 0.8s;
+    color: rgba(0, 255, 255, 0.982);
+}
+
+@keyframes button {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    25% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    50% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    75% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+}
+div .location-wrapper .location {
+    display: block;
+    margin-bottom: 15px;
+}
+.location {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.664);
+    text-decoration: none;
+    font-style: italic;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+
+.location span {
+    font-size: 20px;
+    margin-top: 5px; 
+}
+
+.location:hover {
+    color: aqua;
+}
+
+ h5 span {
+    color: rgba(255, 8, 8, 0.968);
+    font-size: 15px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.532);
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
